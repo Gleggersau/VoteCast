@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_back"
+        tools:context=".user.ProfileFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/abold"
+                    android:gravity="center"
+                    android:text="Profil"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:id="@+id/btnSetting"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:src="@drawable/settings"
+                    app:tint="@color/white" />
+
+
+            </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgUser"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvUserName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/abold"
+                            android:text="Aaliah Maya"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvUserId"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/alight"
+                            android:text="ID: 123123"
+                            android:textColor="@color/text_gray"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvLevel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_5dp"
+                                android:backgroundTint="@color/pink"
+                                android:paddingHorizontal="7dp"
+                                android:paddingVertical="1dp"
+                                android:text="Lv. 1"
+                                android:textColor="@color/white" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/bg_5dp"
+                                android:backgroundTint="@color/purple"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imgGender"
+                                    android:layout_width="17dp"
+                                    android:layout_height="17dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="3dp"
+                                    android:padding="2dp"
+                                    android:src="@drawable/female"
+                                    app:tint="@color/white" />
+
+                                <TextView
+                                    android:id="@+id/tvAge"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingHorizontal="7dp"
+                                    android:paddingVertical="1dp"
+
+                                    android:text="21"
+                                    android:textColor="@color/white" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/btnEditProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_stok_round"
+                        android:gravity="center"
+                        android:paddingHorizontal="13dp"
+                        android:paddingVertical="3dp"
+                        android:text="Edit"
+                        android:textColor="@color/text_gray" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_10dp_stockgray"
+                    android:orientation="horizontal"
+                    android:paddingVertical="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/lytFollowrs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvFollowrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/amidum"
+                            android:text="250"
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/alight"
+                            android:text="Follower"
+                            android:textColor="@color/text_gray"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width=".3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/text_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/lytMyVideos2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvVideos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/amidum"
+                            android:text="50"
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/alight"
+                            android:text="Umfragen"
+                            android:textColor="@color/text_gray"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width=".3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/text_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/lytMyPost2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvPosts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/amidum"
+                            android:text="17"
+                            android:textColor="@color/white"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/alight"
+                            android:text="Beiträge"
+                            android:textColor="@color/text_gray"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lytWallet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="5dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/bg_5dp"
+                            android:backgroundTint="#33F77D3E"
+                            android:padding="9dp"
+                            android:src="@drawable/ic_baseline_save_alt_24"
+                            app:tint="#F77D3E" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/amidum"
+                            android:text="Geispeicherte Beiträge"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:src="@drawable/ic_round_keyboard_arrow_right_24"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".3dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@color/text_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/lytMyPost"
+                        android:layout_marginVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/bg_5dp"
+                            android:backgroundTint="#33E7166B"
+                            android:padding="9dp"
+                            android:src="@drawable/videocamara"
+                            app:tint="#E7166B" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/amidum"
+                            android:text="Meine Beiträge"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:src="@drawable/ic_round_keyboard_arrow_right_24"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".3dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@color/text_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/lytMyVideos"
+                        android:layout_marginVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/bg_5dp"
+                            android:backgroundTint="#33B819A9"
+                            android:padding="9dp"
+                            android:src="@drawable/galary"
+                            app:tint="#B819A9" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/amidum"
+                            android:text="Meine Petitionen"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:src="@drawable/ic_round_keyboard_arrow_right_24"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="10dp"
+                        android:background="@color/text_gray" />
+
+                    <LinearLayout
+                        android:id="@+id/lytVIP"
+                        android:layout_marginVertical="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/bg_5dp"
+                            android:backgroundTint="#331DC194"
+                            android:padding="9dp"
+                            android:src="@drawable/crown"
+                            app:tint="#1DC194" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/amidum"
+                            android:text="Statistiken freischalten"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:src="@drawable/ic_round_keyboard_arrow_right_24"
+                            app:tint="@color/white" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+<!--
+                <LinearLayout
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/bg_5dp"
+                        android:backgroundTint="#0F1B2F"
+                        android:padding="9dp"
+                        android:src="@drawable/profile"
+                        app:tint="#007AFF" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/amidum"
+                        android:text="Log Out"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+-->
+
+    </LinearLayout>
+</ScrollView>
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.votecast">
+
+    <uses-sdk tools:overrideLibrary="com.otaliastudios.transcoder" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+
+    <application
+        android:name="com.example.votecast.MainApplication"
+        android:exported="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rayzi"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme">
+        <activity
+            android:name="com.example.votecast.videocall.RandomMatchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.user.wallet.HistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.user.wallet.CashOutActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.videocall.VideoCallActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.videocall.CallRequestActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.videocall.CallIncomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.livestreamming.LiveSummaryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.user.guestuser.GuestActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.user.SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.livestreamming.HostLiveActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.posts.LocationChooseActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.posts.HashtagsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.posts.FeedListActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.votecast.user.freecoins.FreeDimondsActivity"
+            android:exported="true" />
+        <activity android:name="com.example.votecast.user.wallet.MyWalletActivity" />
+        <activity android:name="com.example.votecast.reels.record.VolumeActivity" />
+        <activity android:name="com.example.votecast.reels.record.FilterActivity" />
+        <activity android:name="com.example.votecast.reels.record.PanAudioActivity" />
+        <activity android:name="com.example.votecast.reels.record.songpicker.SongPickerActivity" />
+        <activity android:name="com.example.votecast.reels.record.sticker.StickerPickerActivity" />
+        <activity android:name="com.example.votecast.reels.record.TrimmerActivity" />
+        <activity android:name="com.example.votecast.user.vip.VipPlanActivity" />
+        <activity android:name="com.example.votecast.user.MyLevelListActivity" />
+        <activity android:name="com.example.votecast.user.EditProfileActivity" />
+        <activity android:name="com.example.votecast.user.FollowrsListActivity" />
+        <activity android:name="com.example.votecast.reels.VideoListGridActivity" />
+        <activity android:name="com.example.votecast.posts.FeedGridActivity" />
+        <activity android:name="com.example.votecast.chat.ChatActivity" />
+        <activity android:name="com.example.votecast.activity.SettingActivity" />
+        <activity android:name="com.example.votecast.posts.UploadPostActivity" />
+        <activity android:name="com.example.votecast.livestreamming.WatchLiveActivity" />
+        <activity android:name="com.example.votecast.livestreamming.GotoLiveActivity" />
+        <activity android:name="com.example.votecast.activity.LoginActivityActivity" />
+        <activity
+            android:name="com.example.votecast.activity.SpleshActivity"
+            android:noHistory="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.votecast.activity.MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.NATIVE_AD_DEBUGGER_ENABLED"
+            android:value="false" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+
+    </application>
+
+</manifest>

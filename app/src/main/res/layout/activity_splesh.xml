@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_back"
+    tools:context=".activity.SpleshActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/log_png" />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:fontFamily="@font/pacifico"
+        android:letterSpacing=".1"
+        android:shadowColor="@color/pinklight"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:shadowRadius="1"
+        android:text="@string/app_name"
+        android:textColor="@color/pink"
+        android:textSize="24dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_edit_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_feed_list.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_filter.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_free_dimonds.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_guest.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_history.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_login_activity.xml" value="0.264" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_my_feed.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_reels.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_search.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_setting.xml" value="0.3110571081409477" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_splesh.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_trimmer.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/activity_watch_live.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/bottom_sheet_choices.xml" value="0.3956723338485317" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/bottom_sheet_datepiker.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/bottom_sheet_gender.xml" value="0.264" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/bottom_sheet_user_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/custom_tabhorizontol.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/dailog_loader.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_feed_list.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_feed_main.xml" value="0.176" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_guest_user_posts.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_guest_user_reels.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_home.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_live.xml" value="0.14276048714479025" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_live_list.xml" value="0.136" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_message.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_ont_to_one_main.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_profile.xml" value="0.2820855614973262" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_video_list.xml" value="0.264" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/fragment_video_main.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_article_section.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_banner.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_chat_image.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_chat_stiker.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_chatusers.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_emoji_grid.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_feed.xml" value="0.264" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_feed_grid_list.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_followrs.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_search_users.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_simplepopup.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/item_song.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/lout_popup.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/partial_timer_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/picker_popup_layout.xml" value="0.25" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/layout/spinner_item.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/kenot/Downloads/VoteCast Java/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

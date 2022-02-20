@@ -1,0 +1,234 @@
+<resources>
+
+
+    <string name="app_name">VoteCast</string>
+
+
+    <string name="match_guide_click">"Tap the Screen to match "</string>
+    <string name="image">Image</string>
+    <string name="dummytext">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.</string>
+    <string name="purchase_decription">Regular renewal, cancel at any time \n The payment of purchasing the subscription will be charged from your Google Play account.\nYour subscription will be automatically renewed for the same package duration with same price until you cancel it in the Google Play store settings at least 24 hours before the end of the current subscription.By confirming your subscription you agree to our Terms of Use and Privacy Policy</string>
+    <string name="whaitis_rcoin">1.When you receive gifts on FaceCast, like a Lamborghini or Castle, you immediately earn the same amount of Rcoin as the gift\'s price in the FaceCast Gift Store.\n\n2.You can convert Rcoin to both diamonds and cash.\n\n3.Rcoin balance Available+Withdrawing\n</string>
+    <string name="bio">𝐋𝐢𝐟𝐞 𝐝𝐨𝐞𝐬𝐧’𝐭 𝐚𝐥𝐰𝐚𝐲𝐬 𝐠𝐢𝐯𝐞 𝐮 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞🤗💞💙 𝐔 𝐧𝐞𝐯𝐞𝐫 𝐠𝐞𝐭 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞 𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐭𝐡𝐞 𝐟𝐢𝐫𝐬𝐭 𝐢𝐦𝐩𝐫𝐞𝐬𝐬𝐢𝐨𝐧😊💛💚💜 𝐒𝐨 𝐦𝐚𝐤𝐞 𝐮𝐫 𝐟𝐢𝐫𝐬𝐭 𝐜𝐡𝐚𝐧𝐜𝐞 𝐜𝐨𝐮𝐧𝐭☺️💝💖❤️</string>
+    <string name="dummyname">@Mia Malkova</string>
+    <string name="timer_hint">To cancel timer before it starts, click here.</string>
+    <string name="mmss">00:00</string>
+    <string name="sound_hint">Click to choose a song.</string>
+
+
+    <string name="audio_from_clip">Custom audio from clip.</string>
+    <string name="bio_label">Bio</string>
+    <string name="browse_file_title">Browse file</string>
+    <string name="browse_label">Browse</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="chat_label">Chat</string>
+    <string name="clips_label">Clips</string>
+    <string name="close_button">Close</string>
+    <string name="comments_label">Comments</string>
+    <string name="comments_switch">Enable comments on this clip?</string>
+    <string name="composer_hint">Type something here…</string>
+    <string name="confirmation_block_user">Do you want to block this user? None of you will be able to send messages.</string>
+    <string name="confirmation_close_app">Do you really want to close app?</string>
+    <string name="confirmation_close_recording">You will lose your recorded clips (if any). Are you sure?</string>
+    <string name="confirmation_delete_clip">Do you really want to delete this clip? This cannot be undone.</string>
+    <string name="confirmation_delete_comment">Do you really want to delete this comment? This cannot be undone.</string>
+    <string name="confirmation_delete_draft">Do you really want to permanently delete this draft clip? It cannot be undone.</string>
+    <string name="confirmation_delete_message">Do you really want to delete this message? This cannot be undone.</string>
+    <string name="confirmation_disable_account">
+        This will disable your account permanently and you will not be able to login again.
+        Do you really want to continue?
+        This cannot be undone.
+    </string>
+    <string name="confirmation_unblock_user">Do you want to unblock this user? You both will be able to message each other again.</string>
+    <string name="confirmation_use_audio">Do you want to open recorder and make a clip using this audio?</string>
+    <string name="content_language_spinner">Content language</string>
+    <string name="conversations_label">Conversations</string>
+    <string name="count_clips" formatted="false">%s clips</string>
+    <string name="deleted">deleted</string>
+    <string name="delete_button">Delete</string>
+    <string name="details_button">Details</string>
+    <string name="disable_account_label">Disable account</string>
+    <string name="disable_button">Disable</string>
+    <string name="discover_label">Discover</string>
+    <string name="done_button">Done</string>
+    <string name="draft_label">Draft</string>
+    <string name="edit_label">Edit</string>
+    <string name="email_label">Email</string>
+    <string name="empty_articles">No news articles found to display.</string>
+    <string name="empty_clips">No clips found to display.</string>
+    <string name="empty_comments">No comments found to display.</string>
+    <string name="empty_conversations">No conversations found to display.</string>
+    <string name="empty_followers">No followers found to display.</string>
+    <string name="empty_followings">No followings found to display.</string>
+    <string name="empty_hashtags">No hashtags found to display.</string>
+    <string name="empty_messages">No message found to display.</string>
+    <string name="empty_notifications">No notifications found to display.</string>
+    <string name="empty_songs">No songs found to display.</string>
+    <string name="empty_stickers">No stickers found to display.</string>
+    <string name="empty_users">No users found to display.</string>
+    <string name="error_ad_load_failed">Could not load an ad to display.</string>
+    <string name="error_choose_file">Please choose a file.</string>
+    <string name="error_field_required">This field is required.</string>
+    <string name="error_internet">Please check your internet connection.</string>
+    <string name="error_invalid_otp">The code you entered is incorrect.</string>
+    <string name="error_invalid_phone">The phone number entered is not valid.</string>
+    <string name="error_server">Server returned an unexpected response.</string>
+    <string name="error_thread_failed">Failed to load thread information.</string>
+    <string name="facebook_label">Facebook</string>
+    <string name="filter_button">Filter</string>
+    <string name="filters_label">Filters</string>
+    <string name="flash_button">Flash</string>
+    <string name="flip_button">Flip</string>
+    <string name="follow_label">Follow</string>
+    <string name="followers_label">Followers</string>
+    <string name="following_label">Following</string>
+    <string name="for_you_label">For You</string>
+    <string name="generate_label">Generate</string>
+    <string name="google_label">Google</string>
+    <string name="hashtags_label">Hashtags</string>
+    <string name="instagram_label">Instagram</string>
+    <string name="language_label">Preferred languages</string>
+    <string name="legal_label">Legal</string>
+    <string name="likes_label">Likes</string>
+    <string name="linkedin_label">LinkedIn</string>
+    <string name="location_label">Location</string>
+    <string name="login_description">Please login by clicking on any of the below services to continue using the app.</string>
+    <string name="login_email_description">Please enter your email address below &amp; click on Generate button to receive an OTP.</string>
+    <string name="login_label">Login</string>
+    <string name="login_otp_description">Please enter your mobile number below &amp; click on Generate button to receive an OTP.</string>
+    <string name="login_otp_sent">OTP has been sent to your mobile number. Please wait for a while until it arrives.</string>
+    <string name="login_otp_sent_email">OTP has been sent to your email. If you can\'t find it in your Inbox shortly, please check your spam/junk folder too.</string>
+    <string name="login_required_message">You need to be logged in to access this.</string>
+    <string name="login_success">You have successfully logged in.</string>
+    <string name="logout_label">Logout</string>
+    <string name="message_accept_policies">To continue, please read and accept our legal policies.</string>
+    <string name="message_account_disabled">Your account has been permanently disabled.</string>
+    <string name="message_blocked">The user has blocked you from sending messages.</string>
+    <string name="message_blocking">You have blocked this user from sending messages.</string>
+    <string name="message_blocking_both">You both have blocked each other.</string>
+    <string name="message_clip_downloaded">Successfully saved the video clip to gallery.</string>
+    <string name="message_clip_updated">Clip information was successfully updated.</string>
+    <string name="message_downloading_async">You can enjoy watching videos while it is being downloaded in background.</string>
+    <string name="message_label">Message</string>
+    <string name="message_qr_description">Your friends may scan this code in their app to view your profile and uploaded clips.</string>
+    <string name="message_qr_invalid">This content is not supported by our app.</string>
+    <string name="message_sharing_async">You can enjoy watching videos while we are downloading video for sharing.</string>
+    <string name="message_song_change">You cannot change song after recording has started.</string>
+    <string name="message_song_select">You cannot select song after recording has started.</string>
+    <string name="message_trim_too_long" formatted="false">Please select no more that %d seconds to cut.</string>
+    <string name="message_trim_too_short" formatted="false">Please select at least %d seconds to cut.</string>
+    <string name="name_label">Name</string>
+    <string name="news_label">News</string>
+    <string name="notification_channel_name">Default</string>
+    <string name="notification_commented_on_your_clip">\@%s commented on your clip.</string>
+    <string name="notification_download_description">Should not taker longer than a few seconds.</string>
+    <string name="notification_download_title">Download file…</string>
+    <string name="notification_else">This notification content is not supported, yet.</string>
+    <string name="notification_liked_your_clip">\@%s liked on your clip.</string>
+    <string name="notification_mentioned_you_in_comment">\@%s commented on your clip.</string>
+    <string name="notification_posted_new_clip">\@%s posted a new video clip.</string>
+    <string name="notification_preview_description">This will take just a few moments.</string>
+    <string name="notification_preview_title">Preparing for upload…</string>
+    <string name="notification_saved_description">The video clip has been successfully saved.</string>
+    <string name="notification_saved_title">Saved to gallery.</string>
+    <string name="notification_started_following_you">\@%s has started following you.</string>
+    <string name="notification_tagged_you_in_clip">\@%s tagged you in a clip.</string>
+    <string name="notification_upload_description">Just a few moments before it goes on air.</string>
+    <string name="notification_upload_title">Uploading video…</string>
+    <string name="notification_upload_failed_description">The video has to been saved to drafts.</string>
+    <string name="notification_upload_failed_title">Failed to upload.</string>
+    <string name="notification_watermark_description">This will take a while, we\'ll notify you when done.</string>
+    <string name="notification_watermark_title">Optimizing clip…</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="original_audio">User\'s original audio.</string>
+    <string name="otp_label">SMS</string>
+    <string name="otp_label_field">OTP</string>
+    <string name="pan_audio_hint">You may use this option to synchronize audio and video by adjusting audio to start a little earlier or later.</string>
+    <string name="pan_audio_label">Sync audio</string>
+    <string name="password_label">Password</string>
+    <string name="permission_rationale_download">To download and save clip to Gallery, storage permission is needed.</string>
+    <string name="permission_rationale_scan">To scan a QR code, camera permission is needed.</string>
+    <string name="permission_rationale_upload">To pick and upload video from Gallery, storage permission is needed.</string>
+    <string name="phone_label">Phone</string>
+    <string name="preview_label">Preview</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_switch">Make this clip private?</string>
+    <string name="privacy_terms_description" formatted="true">
+        By logging in and use our app, you agree having read our %s and %s.
+    </string>
+    <string name="profile_label">Profile</string>
+    <string name="progress_title">Please wait…</string>
+    <string name="published_label">Published</string>
+    <string name="qr_label">QR</string>
+    <string name="reason_label">Reason</string>
+    <string name="record_button">Record</string>
+    <string name="recorder_error_in_progress">To do this, please stop recording first.</string>
+    <string name="recorder_error_maxed_out">You have already recorded for maximum duration.</string>
+    <string name="recorder_error_no_clips">Please record your clip first to continue.</string>
+    <string name="reply_label">Reply</string>
+    <string name="report_label">Report</string>
+    <string name="report_submitted">Your report against inappropriate content has been successfully submitted.</string>
+    <string name="scan_label">Scan</string>
+    <string name="search_hint">Search user or hashtag…</string>
+    <string name="search_song_hint">Search song or artist…</string>
+    <string name="search_label">Search</string>
+    <string name="see_all_label" formatted="false">See all %s clips</string>
+    <string name="settings_label">Settings</string>
+    <string name="share_clip_chooser">Share clip to…</string>
+    <string name="share_clip_description" formatted="false">Enjoy watching this clip and more, only on %s app.</string>
+    <string name="share_clip_text" formatted="false">Hey there! Check our this cool clip and for more, download this app https://play.google.com/store/apps/details?id=%s from Play Store.</string>
+    <string name="share_clip_title" formatted="false">%s\'s clip</string>
+    <string name="share_user_chooser">Share profile to…</string>
+    <string name="share_user_description" formatted="false">Check out my profile and more, only on %s app.</string>
+    <string name="share_user_title" formatted="false">%s\'s profile</string>
+    <string name="share_label">Share</string>
+    <string name="show_label">Show</string>
+    <string name="slide_1_description">Enjoy, like and comment on interesting clip at home.</string>
+    <string name="slide_1_title">Watch</string>
+    <string name="slide_2_description">Upload original, fun clips on our platform and become a star.</string>
+    <string name="slide_2_title">Create</string>
+    <string name="snapchat_label">Snapchat</string>
+    <string name="song_volume_label">Tune song volume</string>
+    <string name="songs_label">Songs</string>
+
+    <string name="source_label">Source</string>
+    <string name="speed_button">Speed</string>
+    <string name="sticker_label">Choose a sticker</string>
+    <string name="stickers_button">Stickers</string>
+    <string name="submit_label">Submit</string>
+    <string name="suggestions_label">People to follow</string>
+    <string name="support_label">Support</string>
+    <string name="term_of_use">Terms of Use</string>
+    <string name="tiktok_label">TikTok</string>
+    <string name="timer_button">Timer</string>
+    <string name="timer_label">Timer</string>
+    <string name="trimmer_label">Trim or cut</string>
+    <string name="twitter_label">Twitter</string>
+    <string name="unfollow_label">Unfollow</string>
+    <string name="upload_button">Upload</string>
+    <string name="upload_label">Upload</string>
+    <string name="uploading_message">Your clip will be uploaded shortly.</string>
+    <string name="username_label">Username</string>
+    <string name="users_label">Users</string>
+    <string name="verification_file">ID card</string>
+    <string name="verification_file_none">No file chosen.</string>
+    <string name="verification_file_selected" formatted="false">Identification document (%s) selected.</string>
+    <string name="verification_label">Verification</string>
+    <string name="verification_note">To request your profile for verification, please upload a copy of your government issued ID card in jpg/png/pdf format.</string>
+    <string name="verification_requested">Your request will be reviewed soon.</string>
+    <string name="verify_label">Verify</string>
+    <string name="version_label">Version</string>
+    <string name="video_volume_label">Tune video volume</string>
+    <string name="views_label">Views</string>
+    <string name="voice_button">Voice</string>
+    <string name="volume_hint">You may use these options to control intensity of audio between recorded video and (optional) chosen song.</string>
+    <string name="volume_label">Adjust volume</string>
+    <string name="website_label">Website</string>
+    <string name="yes_button">Yes</string>
+    <string name="youtube_label">YouTube</string>
+    <string name="notification_channel_id">default</string>
+    <string name="sentry_dsn">""</string>
+    <string name="admob_test_device_id">\"\"</string>
+    <string name="google_maps_api_key">""</string>
+    <string name="server_url">https://muly.starthub.ltd/api/</string>
+</resources>
